@@ -1,0 +1,38 @@
+<!-- Try to replicate the navbar html structure in the png file, without using CSS properties.
+**Suggestion**
+In order to replicate the navbar html structure, try to use the semantic tag `<nav>`. For the links try to use a not ordered list. -->
+    <!DOCTYPE html>
+    <html>
+    <head>     
+        <title>Navbar ejercicio</title>
+    </head>
+    <body>
+        <section>
+            <nav style="display: flex; width:100%; background-color:#3D4950;">
+                <ul style="display: flex; width: 100%; list-style:none;">
+                    <li style="color: white;font-size: 20px;">Navbar</li>
+                    <li style="margin-left:25px;">
+                        <a href="#Home" style="text-decoration: none;color: white;font-size: 20px;">Home</a>
+                    </li>
+                    <li style="margin-left:15px;">
+                        <a href="#Link" style="text-decoration: none;color: white;font-size: 20px;">Link</a>
+                    </li>
+                    <li style="margin-left:15px;">
+                        <a href="#Dropdown" style="text-decoration: none;color: white;font-size: 20px;">Dropdown
+                            <span class="dropdown-icon" style="color:white; font-size: 10px;margin-left: 5px;">&#9660;</span></a>
+                    </li>
+                    <li style="margin-left:15px;">
+                        <a href="#Disabled" style=" color: gray;cursor: not-allowed;pointer-events: none;text-decoration: 
+                        none;font-size: 20px;">Disabled</a>
+                    </li>
+                    <li><input type="text" placeholder="Search" style="margin-left: 50px; width: 175px;height: 25px;border-radius: 10px;"></li>
+                    <li><a href="#Searched" style="border: 1px solid green; border-radius: 10px; width: 50px; height: 30px; color: green; margin-left: 10px; text-decoration: none; display: inline-block; line-height: 25px;text-align: center;">Search</a></li>
+                </ul>
+            </nav>
+
+        </section>
+    </body>
+    
+    
+    </html>
+
